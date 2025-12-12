@@ -23,6 +23,8 @@ Wireshark
 Target: 10.6.6.23
 Network: 10.6.6.0/24
 
+---
+
 ## 3. Nmap Practical Work
 3.1 Host Discovery (Ping Sweep)
 
@@ -33,6 +35,8 @@ Purpose: Identify active hosts within the subnet.
 
 Result: Host 10.6.6.23 was detected and confirmed to be online.
 
+---
+
 ### 3.2 OS Detection
 
 **Command:**
@@ -41,6 +45,8 @@ Result: Host 10.6.6.23 was detected and confirmed to be online.
 Purpose: Estimate the operating system using TCP/IP fingerprinting.
 
 Result: Nmap returned an OS guess based on collected fingerprints.
+
+---
 
 ### 3.3 Service and Version Detection (FTP)
 
@@ -51,6 +57,8 @@ Purpose: Identify the FTP service, its version, and any additional related infor
 
 Result: Nmap successfully detected the FTP service and relevant details useful for security assessment.
 
+---
+
 ### 3.4 SMB Enumeration (Port 445)
 
 **Command:**
@@ -59,6 +67,8 @@ Result: Nmap successfully detected the FTP service and relevant details useful f
 Purpose: Enumerate available SMB shares and look for misconfigurations.
 
 Result: Returned a list of shares and highlighted possible issues.
+
+---
 
 ### 3.5 Manual SMB Access Test
 
@@ -69,6 +79,8 @@ Purpose: Test if anonymous SMB access is permitted.
 
 Outcome: Anonymous login succeeded, indicating a potential security weakness.
 (Exit using exit.)
+
+---
 
 ## 4. Scapy Practical Work
 Scapy was used entirely from the interactive shell.
@@ -125,6 +137,8 @@ paro3 = _
 paro3.summary()
 paro3[3]
 
+---
+
 ## 5. Key Learnings
 
 Nmap provides valuable information on active hosts, running services, and OS fingerprints.
@@ -136,6 +150,8 @@ Scapy enables detailed packet analysis across different protocols.
 Using filters improves the accuracy and relevance of captured data.
 
 These exercises mirror the reconnaissance processes used in ethical hacking and penetration testing.
+
+---
 
 ## 6. Conclusion
 
