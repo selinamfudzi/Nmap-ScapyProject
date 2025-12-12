@@ -1,13 +1,13 @@
 # Nmap-ScapyProject
 Nmap &amp; Scapy Lab Documentation
 
-__
+--
 ## 1. Introduction
 
 As part of my Ethical Hacking coursework, I completed a practical lab focused on network scanning, service enumeration, and packet analysis using Nmap and Scapy.
 The exercises were carried out in a controlled internal network, working with the target system at 10.6.6.23.
 This lab helped me understand how cybersecurity professionals gather information during the reconnaissance phase of a security assessment. It reinforced how attackers map networks, identify services, and observe traffic patterns.
-__
+--
 ## 2. Lab Environment
    
 **Machine: Linux / Kali Linux**
