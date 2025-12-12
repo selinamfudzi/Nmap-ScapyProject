@@ -86,7 +86,7 @@ Outcome: Anonymous login succeeded, indicating a potential security weakness.
 Scapy was used entirely from the interactive shell.
 
 ### 4.1 Starting Scapy
-sudo su
+``sudo su``
 scapy
 
 ### 4.2 Sniffing All Traffic
