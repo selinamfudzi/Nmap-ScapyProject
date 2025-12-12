@@ -114,11 +114,11 @@ paro.summary()
 
 *Purpose:* Capture traffic specifically from the internal bridge network.
 
-Traffic was triggered by:
+*Traffic was triggered by:*
 Visiting 10.6.6.23 in a browser
 Running network pings
 
-Store results:
+*Store results:*
 paro2 = _
 paro2.summary()
 
@@ -127,12 +127,12 @@ paro2.summary()
 **Command:**
 ``sniff(iface="br-internal", filter="icmp", count=5)``
 
-Triggered ICMP traffic using:
+*Triggered ICMP traffic using:*
 ping 10.6.6.23
 
 *Result:* Captured exactly five ICMP packets.
 
-Store and inspect:
+*Store and inspect:*
 paro3 = _
 paro3.summary()
 paro3[3]
