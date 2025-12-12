@@ -15,7 +15,7 @@ This lab helped me understand how cybersecurity professionals gather information
    
 **Machine: Linux / Kali Linux**
 
-Tools Used:
+*Tools Used:*
 Nmap
 Scapy
 Wireshark
