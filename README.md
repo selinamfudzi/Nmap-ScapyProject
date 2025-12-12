@@ -20,8 +20,9 @@ Nmap
 Scapy
 Wireshark
 
-Target: 10.6.6.23
-Network: 10.6.6.0/24
+*Target:* 10.6.6.23
+
+*Network:* 10.6.6.0/24
 
 ---
 
